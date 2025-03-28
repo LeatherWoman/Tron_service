@@ -71,5 +71,5 @@ curl -X POST "http://localhost:8000/api/v1/address/info"      -H "Content-Type: 
    -d '{"address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"}'
 
 
-curl -X POST "http://localhost:8002/api/v1/address/info"      -H "Content-Type: application/json"   
+curl -X POST "http://localhost:8000/api/v1/address/info"      -H "Content-Type: application/json"   
    -d '{"address": "TXLAQ63Xg1NAzckPwKHvzv7YFyZUDNvsTC"}'
