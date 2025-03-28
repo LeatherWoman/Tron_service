@@ -1,0 +1,94 @@
+### Python ###
+# Виртуальное окружение
+venv/
+.env/
+.env*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Байт-код и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Файлы БД
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи и журналы
+*.log
+*.sql
+*.sqlite-journal
+logs/
+
+### IDE ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+### Тестирование ###
+# Pytest
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.pytest_cache/
+
+### Операционные системы ###
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+### Дистрибуция ###
+# Установочные файлы
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+parts/
+var/
+sdist/
+wheels/
+*.whl
+pip-wheel-metadata/
+share/python-wheels/
+
+# Установщики
+*.msi
+*.msix
+*.msm
+*.msp
+
+# PyInstaller
+*.manifest
+*.spec
+
+# C расширения
+*.pyd
